@@ -8,7 +8,7 @@
     <body>
     <center>
         <h1>Formulaire enregistré</h1>
-        <p>Tu as rejoint le coter obscur.</p>
+        <p>Tu as rejoint le côté obscur.</p>
     </center>
     </body>
 </html>
