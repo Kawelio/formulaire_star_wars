@@ -1,0 +1,123 @@
+/* Mise en forme */
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: Verdana;
+    background: url(../img/back.png) center no-repeat #101010;
+    color: #FFFFFF;
+}
+
+@font-face{
+    font-family: Starjout;
+    font-weight: bold;
+    src: url('Starjout.ttf');
+}
+
+h1 {
+    font-family: Starjout;
+    text-shadow: 1px 2px 2px #000000;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+label {
+    cursor: pointer;
+}
+
+form {
+    width: 500px;
+    margin: auto;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 0px 5px #000000;
+    background: #000000;
+    opacity: 0.8;
+}
+
+#lol {
+    margin: 10px;
+    padding: 5px;
+    text-shadow: 1px 2px 2px #000000;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: -1px 4px 6px 2px rgba(0, 0, 0, 0.3) inset;
+    background: #979797;
+}
+
+#lol:hover {
+    margin: 10px;
+    padding: 5px;
+    text-shadow: 1px 2px 2px #000000;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: -1px 4px 6px 2px rgba(0, 0, 0, 0.3) inset;
+    background: #5E5858;
+}
+
+.inputi {
+    box-shadow: 0px 0px 4px #000000;
+    background: #FBFBFB;
+    border: 1px solid #D9E1E7;
+    color: #54555A;
+    width: 260px;
+    border-radius: 5px;
+    transition-duration: 0.25s;
+    outline: none;
+}
+
+.inputext {
+    box-shadow: 0px 0px 4px #000000;
+    background: #FBFBFB;
+    border: 1px solid #D9E1E7;
+    color: #54555A;
+    width: 464px;
+    border-radius: 5px;
+    transition-duration: 0.25s;
+    outline: none;
+}
+
+.photo {
+    box-shadow: 0px 0px 4px #000000;
+    background: #FBFBFB;
+    border: 1px solid #D9E1E7;
+    color: #54555A;
+    border-radius: 5px;
+    transition-duration: 0.25s;
+    outline: none;
+}
+
+.selection {
+    box-shadow: 0px 0px 4px #000000;
+    background: #FBFBFB;
+    border: 1px solid #D9E1E7;
+    color: #54555A;
+    width: 150px;
+    border-radius: 5px;
+    transition-duration: 0.25s;
+    outline: none;
+}
+
+.bouton {
+    box-shadow: 0px 0px 4px #000000;
+    background: #FBFBFB;
+    border: 1px solid #D9E1E7;
+    color: #54555A;
+    width: 100px;
+    border-radius: 5px;
+    transition-duration: 0.25s;
+    outline: none;
+}
+
+.bouton:hover {
+    box-shadow: 0px 0px 4px #000000;
+    background: #C5BBBB;
+    border: 1px solid #D9E1E7;
+    color: #54555A;
+    width: 100px;
+    border-radius: 5px;
+    transition-duration: 0.25s;
+    outline: none;
+}
+
+span {
+    float: right;
+}

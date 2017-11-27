@@ -1,0 +1,21 @@
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: Verdana;
+    background: url(../img/clair.jpg) center no-repeat #000000;
+    color: #FFFFFF;
+}
+
+@font-face{
+    font-family: Starjout;
+    font-weight: bold;
+    src: url('Starjout.ttf');
+}
+
+h1 {
+    font-family: Starjout;
+    text-shadow: 1px 2px 2px #000000;
+    margin: auto;
+    color: #FFFFFF;
+}
